@@ -1,0 +1,61 @@
+Font DEMO_fnInstructions has been converted to font family Candara (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\DEMO_fnInstructions\DEMO_fnInstructions.gms1.png
+Converting GML script: ${project_dir}\objects\DEMO_obEffect_ScreenShake\Create_0.gml
+Converted description /// @description Set Effect Length
+
+Converting GML script: ${project_dir}\objects\DEMO_obEffect_ScreenShake\Alarm_0.gml
+Converted builtin - line 3: view_xview[0] = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 4: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted description /// @description End Effect
+
+Converting GML script: ${project_dir}\objects\DEMO_obEffect_ScreenShake\Step_0.gml
+Converted builtin - line 3: view_xview[0] = irandom_range(-4, 4) -> __view_set( e__VW.XView, 0, irandom_range(-4, 4) )
+Converted builtin - line 4: view_yview[0] = irandom_range(-4, 4) -> __view_set( e__VW.YView, 0, irandom_range(-4, 4) )
+Converted description /// @description Shake View
+
+Converting GML script: ${project_dir}\objects\DEMO_obPlayer\Create_0.gml
+Converted description /// @description Initialize
+
+Converting GML script: ${project_dir}\objects\DEMO_obPlayer\Step_0.gml
+Converted description /// @description Aim
+Converted string - line 20: 'A' -> "A"
+Converted string - line 21: 'D' -> "D"
+Converted string - line 22: 'W' -> "W"
+Converted string - line 23: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\DEMO_obPlayer\Draw_0.gml
+Converted description /// @description Draw Player
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret\Create_0.gml
+Converted description /// @description Initialize
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret\Alarm_0.gml
+Converted description /// @description Shoot
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret\Step_2.gml
+Converted description /// @description Aim
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret\Draw_64.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Draw Instructions
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret\Draw_0.gml
+Converted description /// @description Draw the Turret
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret\KeyPress_72.gml
+Converted description /// @description Toggle Instructions
+
+Converting GML script: ${project_dir}\objects\DEMO_obTurret_Bullet\Collision_2329418e-13da-4d4d-9231-6867e564faf4.gml
+Converted description /// @description Hit Player
+
+Added compatibility script 'action/action_end_game.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script '__global_object_depths.gml'

@@ -1,0 +1,22 @@
+col = noone
+grav = .45
+done = 0
+time = 0
+thaty = 0
+getplace = false
+randomplatx = 0
+randomplaty = 0
+time1 = 0
+setspeed0 = false
+reachedtop = false
+randomplatid = noone
+timeswitch = false
+first = false
+sec = false
+drawindicators = false
+big = false
+image_speed = 0
+image_xscale = 4
+image_yscale = 4
+createdflag = false
+
